@@ -1,0 +1,49 @@
+#navbarNav {
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#jumbo-img {
+  width: 100%;
+}
+
+.jumbotron>h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.jumbo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 10px;
+}
+
+.col-md-6 {
+  margin: auto;
+  text-align: center;
+}
+
+#meme {
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+}
+
+#pieces {
+  width: 100%;
+  padding: 30px;
+}
+
+p {
+  font-size: 20px;
+}
